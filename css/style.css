@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "bebas_neueregular";
+  src: url(font/bebasneue-regular-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "kaushan_scriptregular";
+  src: url(font/kaushanscript-regular-webfont.woff) format("woff2"), url("kaushanscript-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
+.about {
+  min-height: 400px;
+}
+
+section {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+label {
+  position: relative;
+}
